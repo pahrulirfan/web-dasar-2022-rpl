@@ -2,14 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Form</title>
 </head>
 
 <body>
     <h2>Form HTML</h2>
+
+    <form action="" method="post">
+
+        <label for="">NIM</label>
+        <input type="text" name="txtnim"> <br>
+
+        <label for="">Nama</label>
+        <input type="text" name="txtnama"> <br>
+
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" name="rbjk" value="P"> Perempuan
+        <input type="radio" name="rbjk" value="L"> Laki - Laki <br>
+
+        <label for="">Alamat</label>
+        <textarea name="txtalamat" id="" cols="30" rows="3"></textarea> <br>
+
+        <label for="">Jurusan</label>
+        <select name="optjurusan" id="">
+            <option value="D3RPL">D3 RPL</option>
+            <option value="D3SI">D3 SI</option>
+        </select> <br>
+
+        <input type="submit" value="Simpan" name="btnsimpan">
+        <input type="reset" value="Batal" name="btnbatal">
+
+    </form>
+
 </body>
 
 </html>
